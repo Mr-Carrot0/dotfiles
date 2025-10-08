@@ -1,0 +1,28 @@
+{
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "html.format.contentUnformatted": "pre,code,textarea",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "update.mode": "manual",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "redhat.telemetry.enabled": false,
+    "editor.tabCompletion": "on",
+    "editor.useTabStops": false,
+    "godotTools.editorPath.godot4": "/home/mrcarrot/prog/Godot_v4.4.1-stable_mono_linux_x86_64/Godot_v4.4.1-stable_mono_linux.x86_64",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.enableExperiments": false,
+    "git.autofetchPeriod": 60
+}

@@ -1,0 +1,19 @@
+{
+  "version": "2025.1002.1210",
+  "developerMode": true,
+  "rulesets": [
+    "+block-lan"
+  ],
+  "filteringModes": {
+    "none": [],
+    "basic": [],
+    "optimal": [
+      "all-urls"
+    ],
+    "complete": []
+  },
+  "cosmeticFilters": [
+    "www.m3.se##section > div > div:nth-of-type(2)",
+    "www.w3schools.com###right"
+  ]
+}
