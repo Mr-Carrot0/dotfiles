@@ -1,1 +1,74 @@
-{"*":{"css":"img,\nsvg {\n  &:not(a>*),\n  .header__logo{\n  color-scheme: only light;\n  }\n}\n\n/*body>*, /* fixes most sites*/\n.header__logo, /* logos*/\n[background-image],\n.qrCodeContainer_e16417 /* qr discord*/ {\n  color-scheme: only light;\n}\n\n/*{\n  color: #ccc;\n}*/\n.yt-spec-icon-badge-shape__badge {\n  border-color: transparent;\n}\n\n.style-editor, .style-editor * {\n  caret-color: red;\n}","enabled":true,"modifiedTime":"2025-10-06T20:23:42.206+02:00","readability":false},"**":{"css":"/*:root{\n  color-scheme: only light;\n  *{\n    color-scheme: only dark;\n  }\n}*/","enabled":false,"modifiedTime":"2025-08-18T14:43:34.598+02:00","readability":false},"^https://www.desmos.com/c":{"css":":root{\n  color-scheme:only light;\n}","enabled":true,"modifiedTime":"2025-08-20T13:09:11.742+02:00","readability":false},"desmos.com/*/":{"css":"svg {\n  color-scheme: onlt light;\n}","enabled":true,"modifiedTime":"2025-08-20T13:33:33.826+02:00","readability":false},"discord.com, :root-only-light":{"css":":root {\n  color-scheme:only light;\n}","enabled":true,"modifiedTime":"2025-09-03T08:40:46.874+02:00","readability":false},"google.com":{"css":".iKN8Oe { \n  filter: invert(90%);\n}\n*{\n  color: #ddd;\n}\n\n#speakernotes-workspace{\n  &,& svg{\n    color-scheme:only light;\n  }\n}","readability":false,"enabled":true,"modifiedTime":"2025-10-07T13:21:29.153+02:00"},"https://askubuntu.com/, unix.stackexchange.com, graphicdesign.stackexchange.com":{"css":"body{\n  background-image: none;\n}","enabled":true,"modifiedTime":"2025-08-25T16:58:23.372+02:00","readability":false},"https://darkvisitors.com/":{"css":"canvas {\n  filter:  invert();\n}","enabled":true,"modifiedTime":"2025-09-08T15:10:42.544+02:00","readability":false},"https://developer.mozilla.org/":{"css":"svg>title{\n  color-scheme: dark;\n}","enabled":true,"modifiedTime":"2025-08-26T20:51:24.724+02:00","readability":false},"https://rogule.com/game.html":{"css":"span.grid, arrow-buttons{\n  color-scheme: only light\n}","enabled":true,"modifiedTime":"2025-09-12T19:35:29.973+10:00","readability":false},"https://www.desmos.com":{"css":".dcg-frontpage-landing-interactive {\n  &,*{\n  color-scheme: only light;\n}}\n\n","enabled":true,"modifiedTime":"2025-08-20T13:33:48.795+02:00","readability":false},"https://www.elgiganten.se/":{"css":"/* :root\n{\n  color-scheme: only light;\n  background-color: #333;\n  color:white;\n}\nbody,main,\nmain *{\n    background-color: #333;\n} */\n\nimg{\n  background-color: white;\n}","enabled":true,"modifiedTime":"2025-10-06T20:49:24.312+02:00","readability":false}}
+{
+   "*": {
+      "css": "img,\nsvg {\n  &:not(a>*),\n  .header__logo{\n  color-scheme: only light;\n  }\n}\n\n/*body>*, /* fixes most sites*/\n.header__logo, /* logos*/\n[background-image],\n.qrCodeContainer_e16417 /* qr discord*/ {\n  color-scheme: only light;\n}\n\n/*{\n  color: #ccc;\n}*/\n.yt-spec-icon-badge-shape__badge {\n  border-color: transparent;\n}\n\n.style-editor, .style-editor * {\n  caret-color: red;\n}",
+      "enabled": true,
+      "modifiedTime": "2025-10-06T20:23:42.206+02:00",
+      "readability": false
+   },
+   "**": {
+      "css": "/*:root{\n  color-scheme: only light;\n  *{\n    color-scheme: only dark;\n  }\n}*/",
+      "enabled": false,
+      "modifiedTime": "2025-08-18T14:43:34.598+02:00",
+      "readability": false
+   },
+   "^https://www.desmos.com/c": {
+      "css": ":root{\n  color-scheme:only light;\n}",
+      "enabled": true,
+      "modifiedTime": "2025-08-20T13:09:11.742+02:00",
+      "readability": false
+   },
+   "desmos.com/*/": {
+      "css": "svg {\n  color-scheme: onlt light;\n}",
+      "enabled": true,
+      "modifiedTime": "2025-08-20T13:33:33.826+02:00",
+      "readability": false
+   },
+   "discord.com, :root-only-light": {
+      "css": ":root {\n  color-scheme:only light;\n}",
+      "enabled": true,
+      "modifiedTime": "2025-09-03T08:40:46.874+02:00",
+      "readability": false
+   },
+   "google.com": {
+      "css": ".iKN8Oe { \n  filter: invert(90%);\n}\n*{\n  color: #ddd;\n}\n\n#speakernotes-workspace{\n  &,& svg{\n    color-scheme:only light;\n  }\n}",
+      "readability": false,
+      "enabled": true,
+      "modifiedTime": "2025-10-07T13:21:29.153+02:00"
+   },
+   "https://askubuntu.com/, unix.stackexchange.com, graphicdesign.stackexchange.com": {
+      "css": "body{\n  background-image: none;\n}",
+      "enabled": true,
+      "modifiedTime": "2025-08-25T16:58:23.372+02:00",
+      "readability": false
+   },
+   "https://darkvisitors.com/": {
+      "css": "canvas {\n  filter:  invert();\n}",
+      "enabled": true,
+      "modifiedTime": "2025-09-08T15:10:42.544+02:00",
+      "readability": false
+   },
+   "https://developer.mozilla.org/": {
+      "css": "svg>title{\n  color-scheme: dark;\n}",
+      "enabled": true,
+      "modifiedTime": "2025-08-26T20:51:24.724+02:00",
+      "readability": false
+   },
+   "https://rogule.com/game.html": {
+      "css": "span.grid, arrow-buttons{\n  color-scheme: only light\n}",
+      "enabled": true,
+      "modifiedTime": "2025-09-12T19:35:29.973+10:00",
+      "readability": false
+   },
+   "https://www.desmos.com": {
+      "css": ".dcg-frontpage-landing-interactive {\n  &,*{\n  color-scheme: only light;\n}}\n\n",
+      "enabled": true,
+      "modifiedTime": "2025-08-20T13:33:48.795+02:00",
+      "readability": false
+   },
+   "https://www.elgiganten.se/": {
+      "css": "/* :root\n{\n  color-scheme: only light;\n  background-color: #333;\n  color:white;\n}\nbody,main,\nmain *{\n    background-color: #333;\n} */\n\nimg{\n  background-color: white;\n}",
+      "enabled": true,
+      "modifiedTime": "2025-10-06T20:49:24.312+02:00",
+      "readability": false
+   }
+}
