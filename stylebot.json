@@ -90,7 +90,7 @@
         "modifiedTime": "2025-12-04T18:48:31.518+01:00"
     },
     "bandcamp.com": {
-        "css": "img {\n  filter:none;\n}",
+        "css": "img {\n  filter:none;\n}\n.page-banners{\n  color-scheme: only light;\n}",
         "readability": false,
         "enabled": true,
         "modifiedTime": "2025-12-04T18:38:55.300+01:00"
