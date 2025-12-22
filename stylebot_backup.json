@@ -17,16 +17,22 @@
         "modifiedTime": "2025-10-29T19:57:16.820+01:00",
         "readability": false
     },
+    "^https://www.desmos.com/(?!c)": {
+        "css": ".dcg-mq-paren {\n  filter:invert();\n}",
+        "enabled": true,
+        "modifiedTime": "2025-12-16T15:50:59.045+01:00",
+        "readability": false
+    },
     "^https://www.desmos.com/c": {
         "css": ":root{\n  color-scheme:only light;\n}",
         "enabled": true,
         "modifiedTime": "2025-08-20T13:09:11.742+02:00",
         "readability": false
     },
-    "desmos.com/*/": {
-        "css": "svg {\n  color-scheme: onlt light;\n}",
+    "bandcamp.com": {
+        "css": "[data-v-6b45b9cb]{\n  background-color: var(--blue500);\n  --blue300: #007c9e;\n  background-color:  #007c9e;\n}\n\n\n.corp-mark{\n  filter: invert();\n}",
         "enabled": true,
-        "modifiedTime": "2025-08-20T13:33:33.826+02:00",
+        "modifiedTime": "2025-12-04T18:38:55.300+01:00",
         "readability": false
     },
     "google.com": {
@@ -68,7 +74,7 @@
     "https://www.desmos.com": {
         "css": ".dcg-frontpage-landing-interactive {\n  &,*{\n  color-scheme: only light;\n}}\n\n",
         "enabled": true,
-        "modifiedTime": "2025-08-20T13:33:48.795+02:00",
+        "modifiedTime": "2025-12-16T15:48:09.388+01:00",
         "readability": false
     },
     "https://www.elgiganten.se/": {
@@ -85,14 +91,8 @@
     },
     "youtube.com": {
         "css": ".yt-spec-icon-badge-shape__badge {\n  border-color: transparent;\n}\nyt-button-renderer,\nytmusic-play-button-renderer,\n.ytmusic-play-button-renderer{\n  color-scheme: only light;\n}",
-        "readability": false,
         "enabled": true,
-        "modifiedTime": "2025-12-04T18:48:31.518+01:00"
-    },
-    "bandcamp.com": {
-        "css": "[data-v-6b45b9cb]{\n  background-color: var(--blue500);\n  --blue300: #007c9e;\n  background-color:  #007c9e;\n}\n\n\n.corp-mark{\n  filter: invert();\n}",
-        "readability": false,
-        "enabled": true,
-        "modifiedTime": "2025-12-04T18:38:55.300+01:00"
+        "modifiedTime": "2025-12-04T18:48:31.518+01:00",
+        "readability": false
     }
 }
