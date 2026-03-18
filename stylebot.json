@@ -1,8 +1,8 @@
 {
-    "*": {
-        "css": "img,\nsvg {\n  &:not(a>*):not(.filters-banner .icon)\n  /*,.header__logo*/ {\n  color-scheme: only light;\n  }\n}\n\n/*body>*, /* fixes most sites*/\n.header__logo, /* logos */\n[background-image],\n.qr,\n.qrCodeContainer_e16417 /* qr discord*/ {\n  color-scheme: only light;\n}\n\n.ad {\n  display: none;\n}",
+    "^(?!https://excalidraw.com/)": {
+        "css": "img,\nsvg {\n  &:not(a>*),\n  .header__logo {\n  color-scheme: only light;\n  }\n}\n\n\n/*body>*, /* fixes most sites*/\n.header__logo, /* logos */\n[background-image],\n.qr,\n.qrCodeContainer_e16417 /* qr discord*/,\n[style*=\"background-image\"] {\n  color-scheme: only light;\n}\n\n/*{\n  color: #ccc;\n}*/\n\n.ad {\n  display: none;\n}",
         "enabled": true,
-        "modifiedTime": "2025-10-08T12:21:04.033+02:00",
+        "modifiedTime": "2026-03-10T17:56:44.661+01:00",
         "readability": false
     },
     "**": {
@@ -41,10 +41,16 @@
         "modifiedTime": "2025-10-07T14:18:43.245+02:00",
         "readability": false
     },
-    "https://askubuntu.com/, unix.stackexchange.com, graphicdesign.stackexchange.com": {
+    "https://askubuntu.com/, stackexchange.com": {
         "css": "body{\n  background-image: none;\n}",
         "enabled": true,
         "modifiedTime": "2025-08-25T16:58:23.372+02:00",
+        "readability": false
+    },
+    "https://canvas.ltu.se/": {
+        "css": ".MathJax_SVG svg {\r\n  color:white;\r\n  fill: white;\r\n}",
+        "enabled": true,
+        "modifiedTime": "2025-11-25T09:22:25.392+01:00",
         "readability": false
     },
     "https://darkvisitors.com/": {
@@ -60,7 +66,7 @@
         "readability": false
     },
     "https://rogule.com/game.html": {
-        "css": "span.grid, arrow-buttons{\n  color-scheme: only light\n}",
+        "css": "span.grid, arrow-buttons{\n  color-scheme: only light\n}\nimg[title=\"door\"]{\n  filter:invert();\n}",
         "enabled": true,
         "modifiedTime": "2025-09-12T19:35:29.973+10:00",
         "readability": false
@@ -71,23 +77,41 @@
         "modifiedTime": "2025-08-20T13:33:48.795+02:00",
         "readability": false
     },
+    "https://www.desmos.com/3d**": {
+        "css": ".dcg-frontpage-landing-interactive {\n  &,*{\n  color-scheme: only light;\n}}\n.dcg-mq-container:has(.dcg-mq-root-block.dcg-mq-empty){\n  .dcg-mq-root-block.dcg-mq-empty::after {\n\n   filter:invert();\n  }\n}\n\n.dcg-typeset-math svg {\n  filter:invert();\n}\n/*\n.dcg-graph-outer,\n.dcg-grapher,.dcg-grapher *\n,.dcg-grapher-2d\n\n{\n  color-scheme: only light;\n\n}*/",
+        "enabled": true,
+        "modifiedTime": "2025-12-10T14:10:13.569+01:00",
+        "readability": false
+    },
+    "https://www.dofactory.com/": {
+        "css": "* {\r\n  text-shadow: none;\r\n}",
+        "enabled": true,
+        "modifiedTime": "2026-02-24T15:29:37.003+01:00",
+        "readability": false
+    },
     "https://www.elgiganten.se/": {
         "css": "/* :root\n{\n  color-scheme: only light;\n  background-color: #333;\n  color:white;\n}\nbody,main,\nmain *{\n    background-color: #333;\n} */\n\nimg{\n  background-color: white;\n}",
         "enabled": true,
         "modifiedTime": "2025-10-06T20:49:24.312+02:00",
         "readability": false
     },
-    "wikipedia.org": {
-        "css": ".mw-invert{\n  filter:invert();\n}",
+    "https://www.geeksforgeeks.org/": {
+        "css": "::-webkit-scrollbar{\r\n  width: 10px ;\r\n}",
         "enabled": true,
-        "modifiedTime": "2025-11-19T14:02:50.502+01:00",
+        "modifiedTime": "2026-02-10T19:53:58.514+01:00",
+        "readability": false
+    },
+    "wikipedia.org": {
+        "css": ".mw-invert, .skin-invert{\r\n  filter:invert();\r\n  /* color-scheme: only dark; */\r\n}",
+        "enabled": true,
+        "modifiedTime": "2026-03-04T15:56:40.840+01:00",
         "readability": false
     },
     "youtube.com": {
-        "css": ".yt-spec-icon-badge-shape__badge {\n  border-color: transparent;\n}\nyt-button-renderer,\nytmusic-play-button-renderer,\n.ytmusic-play-button-renderer{\n  color-scheme: only light;\n}",
-        "readability": false,
+        "css": ".yt-spec-icon-badge-shape__badge {\n  border-color: transparent;\n}\n\nytmusic-play-button-renderer, \nytd-button-renderer\nyt-touch-feedback-shape\n{\n  color-scheme:only light;\n}\n\n\n.yt-spec-touch-feedback-shape__fill {\n  fill: white;\n  color: white;\n  background-color: white;\n}",
         "enabled": true,
-        "modifiedTime": "2025-12-04T18:48:31.518+01:00"
+        "modifiedTime": "2026-03-12T18:09:10.042+01:00",
+        "readability": false
     },
     "bandcamp.com": {
         "css": "[data-v-6b45b9cb]{\n  background-color: var(--blue500);\n  --blue300: #007c9e;\n  background-color:  #007c9e;\n}\n\n\n.corp-mark{\n  filter: invert();\n}",
