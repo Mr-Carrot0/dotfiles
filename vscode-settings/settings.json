@@ -1,5 +1,4 @@
 {
-    "chat.disableAIFeatures": true,
     "terminal.integrated.defaultProfile.linux": "bash",
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
@@ -9,7 +8,7 @@
     "explorer.confirmDelete": false,
     "security.workspace.trust.untrustedFiles": "open",
     "extensions.autoCheckUpdates": false,
-    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.autoUpdate": false,
     "update.mode": "manual",
     // "[typescript]": {
     //     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -21,15 +20,14 @@
     "editor.tabCompletion": "on",
     "editor.useTabStops": false,
     // "godotTools.editorPath.godot4": "/home/mrcarrot/prog/Godot_v4.4.1-stable_mono_linux_x86_64/Godot_v4.4.1-stable_mono_linux.x86_64",
-    "git.enableSmartCommit": true,
+    // "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
     "workbench.enableExperiments": false,
     "git.autofetchPeriod": 60,
-
-
-
+    
     /* AI BS */
+    "chat.disableAIFeatures": true,
     "chat.agent.enabled": false,
     "chat.agent.maxRequests": -1,
     "chat.commandCenter.enabled": false,
@@ -57,7 +55,7 @@
     "chat.sendElementsToChat.attachCSS": false,
     "chat.sendElementsToChat.attachImages": false,
     "chat.sendElementsToChat.enabled": false,
-    "chat.tools.terminal.autoApprove": {    
+    "chat.tools.terminal.autoApprove": {
         "rm": false,
         "rmdir": false,
         "del": false,
@@ -70,7 +68,6 @@
         "/^Remove-Item\\b/i": false,
         "/.*/": false,
     },
-
     "chat.agent.codeBlockProgress": false,
     "chat.agent.thinking.generateTitles": false,
     "chat.agent.thinkingStyle": "collapsed",

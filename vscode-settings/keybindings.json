@@ -117,7 +117,7 @@
         "when": "!editorFocus"
     },
     {
-        "key": "ctrl+alt+s",
+        "key": "alt+s",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },

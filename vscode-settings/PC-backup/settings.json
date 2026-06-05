@@ -1,0 +1,151 @@
+{
+    "files.exclude": {
+        // "**/.git": false,
+        // "**/.git/": true,
+        "**/.godot/": true,
+        "**/*.import": true,
+        "**/**.uid": true
+    },
+    "files.associations": {
+        "*.gdextension": "toml",
+        // "*.godot": "toml",
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "svg.preview.mode": "svg",
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "git.confirmSync": false,
+    "macros": {
+        // "git_sync_auto": [
+            //     "git.sync",
+            //     "git.pull",
+            //     "git.stageAll",
+            //     "git.commit",
+            //     "git.sync",
+            //     "git.push",
+            // ]
+        },
+        "telemetry.telemetryLevel": "crash",
+        "explorer.confirmDelete": false,
+        "git.autofetch": true,
+        "update.mode": "manual",
+        "workbench.cloudChanges.autoResume": "off",
+        "workbench.cloudChanges.continueOn": "off",
+        "workbench.enableExperiments": false,
+        "workbench.settings.enableNaturalLanguageSearch": false,
+        "extensions.autoCheckUpdates": false,
+        "extensions.autoUpdate": false,
+        "workbench.startupEditor": "none",
+        "accessibility.openChatEditedFiles": false,
+        "inlineChat.holdToSpeech": false,
+        "editor.minimap.enabled": false,
+        "deno.suggest.imports.hosts": {
+            "https://deno.land": true
+        },
+        "typescript.preferences.autoImportFileExcludePatterns": [
+            // "node*",
+            "npm:*"
+        ],
+        "notebook.experimental.generate": false,
+        "editor.autoIndentOnPaste": true,
+        "explorer.confirmDragAndDrop": false,
+        "security.workspace.trust.untrustedFiles": "open",
+        "update.enableWindowsBackgroundUpdates": false,
+        "python.analysis.autoIndent": false,
+        "editor.detectIndentation": false,
+        "godotTools.editorPath.godot4": "\"C:\\Users\\johanz-5-local\\Documents\\Godot_v4.6.1-stable_mono_win64\\Godot_v4.6.1-stable_mono_win64.exe\"",
+        "terminal.integrated.initialHint": false,
+        "python.analysis.typeCheckingMode": "basic",
+        "liveServer.settings.donotShowInfoMsg": true,
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        /* AI BS */
+        "chat.disableAIFeatures": true,
+        "chat.agent.enabled": false,
+        "chat.agent.maxRequests": -1,
+        "chat.commandCenter.enabled": false,
+        "chat.notifyWindowOnConfirmation": false,
+        "chat.implicitContext.suggestedContext": false,
+        "chat.checkpoints.enabled": false,
+        "chat.detectParticipant.enabled": false,
+        "chat.emptyChatState.enabled": false,
+        "chat.extensionTools.enabled": false,
+        "chat.implicitContext.enabled": {
+            "panel": "never"
+        },
+        "chat.instructionsFilesLocations": {
+            ".github/instructions": false
+        },
+        "chat.mcp.discovery.enabled": {
+            "claude-desktop": false,
+            "windsurf": false,
+            "cursor-global": false,
+            "cursor-workspace": false
+        },
+        "chat.promptFilesLocations": {
+            ".github/prompts": false
+        },
+        "chat.sendElementsToChat.attachCSS": false,
+        "chat.sendElementsToChat.attachImages": false,
+        "chat.sendElementsToChat.enabled": false,
+        "chat.tools.terminal.autoApprove": {
+            "rm": false,
+            "rmdir": false,
+            "del": false,
+            "kill": false,
+            "curl": false,
+            "wget": false,
+            "eval": false,
+            "chmod": false,
+            "chown": false,
+            "/^Remove-Item\\b/i": false,
+            "/.*/": false,
+        },
+        "chat.agent.codeBlockProgress": false,
+        "chat.agent.thinking.generateTitles": false,
+        "chat.agent.thinkingStyle": "collapsed",
+        "chat.extensionUnification.enabled": false,
+        "chat.math.enabled": false,
+        "chat.mcp.access": "none",
+        "chat.mcp.autostart": "never",
+        "chat.notifyWindowOnResponseReceived": false,
+        "chat.suspendThrottling": false,
+        "chat.todoListTool.writeOnly": true,
+        "chat.tools.edits.autoApprove": {
+            "**/*": false
+        },
+        "chat.viewSessions.orientation": "stacked",
+        "chat.viewTitle.enabled": false,
+        "chat.viewWelcome.enabled": false,
+        "workbench.remoteIndicator.showExtensionRecommendations": false,
+        "godot.csharp.executablePath": "\"C:\\Users\\johanz-5-local\\Documents\\Godot_v4.6.1-stable_mono_win64\\Godot_v4.6.1-stable_mono_win64.exe\"",
+        "godotTools.lsp.autoReconnect.enabled": false,
+        "diffEditor.renderSideBySide": true,
+        "inlineChat.lineNaturalLanguageHint": false,
+        "python.analysis.aiCodeActions": {
+            "convertLambdaToNamedFunction": false,
+            "implementAbstractClasses": false,
+            "generateSymbol": false,
+            "convertFormatString": false,
+            "generateDocstring": false
+        },
+    }
